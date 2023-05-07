@@ -1,1 +1,3 @@
 # cloudcomputingECG
+
+We used a heart rate monitor board that is compatible with the particle photon. Three probes, that plug into the board, were used to measure the signals of the beating heart. These probes act as a sensor. The actuator was an LCD screen that prints the signal from the probes as well as the heart rate of the user. A switch was also implemented on the device that allows the user to dim the LCD screen’s backlight in order to adapt to different levels of light in the environment. For the IoT aspect of the project, an email is sent to the user’s email address every fifteen minutes with a reading of the average heart rate. The average heart rate over time is also graphed in a google spreadsheet.
